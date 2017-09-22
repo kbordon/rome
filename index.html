@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <title>When in Rome...</title>
+  <body>
+    <div class="container">
+      <div class="well">
+        <h1>When in <strong>Rome</strong>, count in <em>nonsensical letters!</em></h1>
+      </div>
+      <form id="numberForm">
+        <div class="form-group">
+          <label class="control-label" name="number">Enter your number:</label>
+          <input class="form-control" type="number" id="number" required>
+        </div>
+        <button class="btn btn-danger" type="submit">Submit</button>
+      </form>
+
+      <div id="result" class="panel panel-danger">
+        <div class="panel-heading caesar">
+          <p>Caesar declares, "<span class="number"></span>."</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
